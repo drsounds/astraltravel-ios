@@ -16,17 +16,21 @@ namespace AstralTravelIOS
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIButton CloseButton { get; set; }
+		UITextView DescriptionText { get; set; }
 
-		[Action ("UIButton349_TouchUpInside:")]
+		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		partial void UIButton349_TouchUpInside (UIButton sender);
+		UIButton EnjoyButton { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (CloseButton != null) {
-				CloseButton.Dispose ();
-				CloseButton = null;
+			if (DescriptionText != null) {
+				DescriptionText.Dispose ();
+				DescriptionText = null;
+			}
+			if (EnjoyButton != null) {
+				EnjoyButton.Dispose ();
+				EnjoyButton = null;
 			}
 		}
 	}

@@ -13,6 +13,8 @@ namespace AstralTravelIOS
 		{
 			base.ViewDidLoad ();
 			this.NavigationBar.BarTintColor = Application.PrimaryColor;
+			this.NavigationBar.TintColor = UIColor.White;
+			this.NavigationBar.BarStyle = UIBarStyle.Black;
 		}
 	}
 }

@@ -19,7 +19,7 @@ namespace AstralTravel
 
 
 	public class Experience : Resource {
-	
+		public string description;
 	}
 
 	public class Protocol : Resource {
@@ -91,8 +91,8 @@ namespace AstralTravel
 
 
 		public async Task<List<Category>> GetCategories() {
-			List<Category> experiences = await this.GetResources<Category> ("GET", "/category/?format=json");
-			return experiences;
+			List<Category> categories = await this.GetResources<Category> ("GET", "/category/?format=json");
+			return categories;
 		}
 
 		public async Task<List<Experience>> GetExperiences() {

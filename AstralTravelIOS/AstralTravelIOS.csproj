@@ -130,6 +130,7 @@
     <Compile Include="ExperienceTableViewController.designer.cs">
       <DependentUpon>ExperienceTableViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="AstralButton.cs" />
   </ItemGroup>
   <Import Project="..\AstralTravel\AstralTravel.projitems" Label="Shared" Condition="Exists('..\AstralTravel\AstralTravel.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

@@ -12,7 +12,10 @@ namespace AstralTravelIOS
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
-			this.TabBar.BarTintColor = Application.PrimaryColor;
+			this.TabBar.BarStyle = UIBarStyle.Black;
+	
+			this.TabBar.TintColor = Application.PrimaryColor;
+		
 		}
 	}
 }

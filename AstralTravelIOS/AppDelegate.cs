@@ -24,7 +24,8 @@ namespace AstralTravelIOS
 			#if ENABLE_TEST_CLOUD
 			Xamarin.Calabash.Start();
 			#endif
-			this.Window.TintColor = UIColor.Black;
+			this.Window.TintColor = Application.PrimaryColor;
+		
 			return true;
 		}
 

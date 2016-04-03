@@ -27,10 +27,18 @@ namespace AstralTravelIOS
 
 		}
 		public Category SelectedCategory { get; set; }
+		public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)
+		{
+			if (segue.Identifier == "viewExperiencesForCategory") {
+				ExperienceTableViewController evt = (ExperienceTableViewController)segue.DestinationViewController;
+				evt.category = this.SelectedCategory;
+			}
+		}
 		public override void RowSelected (UITableView tableView, NSIndexPath indexPath)
 		{
 			this.SelectedCategory = this.DataSource [indexPath.Row];
-			this.PerformSegue ("viewExperiencesForCategory", this);
+
+			this.PerformSegue("viewExperiencesForCategory", this);
 		}
 
 	}
