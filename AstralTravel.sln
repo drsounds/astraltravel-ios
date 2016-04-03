@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AstralTravel", "AstralTravel\AstralTravel.shproj", "{F2797115-8055-4CEA-8C5F-F46268B4D6DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstralTravelIOS", "AstralTravelIOS\AstralTravelIOS.csproj", "{5C979592-7C94-47FA-A8B1-20D765C6192F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstralTravelIOS.UITests", "AstralTravelIOS.UITests\AstralTravelIOS.UITests.csproj", "{736B115C-25FA-4349-BE05-FF118B688303}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C979592-7C94-47FA-A8B1-20D765C6192F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{5C979592-7C94-47FA-A8B1-20D765C6192F}.Debug|iPhone.Build.0 = Debug|iPhone
+		{5C979592-7C94-47FA-A8B1-20D765C6192F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{5C979592-7C94-47FA-A8B1-20D765C6192F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{5C979592-7C94-47FA-A8B1-20D765C6192F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{5C979592-7C94-47FA-A8B1-20D765C6192F}.Release|iPhone.Build.0 = Release|iPhone
+		{5C979592-7C94-47FA-A8B1-20D765C6192F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{5C979592-7C94-47FA-A8B1-20D765C6192F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{736B115C-25FA-4349-BE05-FF118B688303}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{736B115C-25FA-4349-BE05-FF118B688303}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{736B115C-25FA-4349-BE05-FF118B688303}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{736B115C-25FA-4349-BE05-FF118B688303}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{736B115C-25FA-4349-BE05-FF118B688303}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{736B115C-25FA-4349-BE05-FF118B688303}.Release|iPhone.Build.0 = Release|Any CPU
+		{736B115C-25FA-4349-BE05-FF118B688303}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{736B115C-25FA-4349-BE05-FF118B688303}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
